@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% if title %}
+  <title>{{ title }} - Elmo Url Shortener</title>
+  {% else %}
+  <title>Welcome to Elmo Url Shortener</title>
+  {% endif %}
+</head>
+<body>
+    <div>Elmo Url Shortener: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+    </body>
+</html>

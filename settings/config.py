@@ -13,3 +13,4 @@ PG_CONN = {
     'password': os.environ['PG_PASSWORD'],
     'database': os.environ['PG_DATABASE'],
 }
+PG_DATABASE = os.environ['PG_DATABASE']
