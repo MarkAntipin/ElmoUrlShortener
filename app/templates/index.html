@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>
+        Urls Database
+    </h1>
+    {% for url in urls %}
+    <div>
+        <p><b>{{ url }}</b></p>
+    </div>
+    {% endfor %}
+{% endblock %}
+
