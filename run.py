@@ -1,7 +1,7 @@
+# -*- coding: utf-8 -*-
+
 from app import app
 from app.handlers import manage
-from settings.config import PG_CONN
-
 
 manage.register(app)
 

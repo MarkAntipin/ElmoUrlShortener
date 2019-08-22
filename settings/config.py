@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 import dotenv
 
@@ -14,3 +16,5 @@ PG_CONN = {
     'database': os.environ['PG_DATABASE'],
 }
 PG_DATABASE = os.environ['PG_DATABASE']
+
+SECRET_KEY = os.environ['SECRET_KEY']

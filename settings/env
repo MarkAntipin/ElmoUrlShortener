@@ -1,3 +1,5 @@
 PG_USER='mark'
 PG_PASSWORD=1234
 PG_DATABASE='elmo-url'
+SECRET_KEY='secret_key'
+
